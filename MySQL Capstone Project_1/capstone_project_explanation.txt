@@ -1,0 +1,10 @@
+Retail Capstone Project Explanation
+
+Database Design:
+The database retail_capstone_db is designed for an online retail company. It contains six tables: customers, products, orders, order_items, payments, and deliveries. These tables store customer details, product details, order information, purchased items, payment details, and delivery status.
+
+Table Relationships:
+The customers table is connected to the orders table using customer_id. The orders table is connected to order_items, payments, and deliveries using order_id. The order_items table is connected to products using product_id. Even if foreign keys are not added, these columns are used in joins to connect the tables.
+
+Key Insights from Reports:
+The queries help management find total customers, total orders, total revenue, revenue by city, revenue by customer, quantity sold by product, and revenue by category. The reports also identify customers with multiple orders, products sold more than three times, pending deliveries, failed payments, cancelled orders with successful payments, and data quality issues such as missing payment or delivery records.
