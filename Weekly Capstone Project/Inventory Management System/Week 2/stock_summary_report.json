@@ -1,0 +1,58 @@
+{
+  "total_products": 8,
+  "total_warehouses": 3,
+  "total_stock_across_all": 1136,
+  "reorder_level": 10,
+  "items_below_reorder": 7,
+  "low_stock_items": [
+    {
+      "product_id": 2,
+      "product_name": "Mechanical Keyboard",
+      "warehouse_id": 2,
+      "warehouse_name": "Warehouse Beta",
+      "current_stock": -42
+    },
+    {
+      "product_id": 2,
+      "product_name": "Mechanical Keyboard",
+      "warehouse_id": 3,
+      "warehouse_name": "Warehouse Gamma",
+      "current_stock": -30
+    },
+    {
+      "product_id": 3,
+      "product_name": "USB-C Hub",
+      "warehouse_id": 3,
+      "warehouse_name": "Warehouse Gamma",
+      "current_stock": -25
+    },
+    {
+      "product_id": 5,
+      "product_name": "HDMI Cable 2m",
+      "warehouse_id": 1,
+      "warehouse_name": "Warehouse Alpha",
+      "current_stock": -25
+    },
+    {
+      "product_id": 5,
+      "product_name": "HDMI Cable 2m",
+      "warehouse_id": 2,
+      "warehouse_name": "Warehouse Beta",
+      "current_stock": -8
+    },
+    {
+      "product_id": 8,
+      "product_name": "Ergonomic Chair",
+      "warehouse_id": 1,
+      "warehouse_name": "Warehouse Alpha",
+      "current_stock": 3
+    },
+    {
+      "product_id": 8,
+      "product_name": "Ergonomic Chair",
+      "warehouse_id": 2,
+      "warehouse_name": "Warehouse Beta",
+      "current_stock": -1
+    }
+  ]
+}

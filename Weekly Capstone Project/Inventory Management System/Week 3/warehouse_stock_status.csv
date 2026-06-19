@@ -1,0 +1,4 @@
+warehouse_id,warehouse_name,current_stock,status
+1,Warehouse Alpha,672,OVERSTOCKED
+2,Warehouse Beta,529,NORMAL
+3,Warehouse Gamma,95,UNDERSTOCKED
